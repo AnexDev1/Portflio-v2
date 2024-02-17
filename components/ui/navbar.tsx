@@ -1,7 +1,12 @@
 "use client";
 import React from "react";
 import { FloatingNav } from "../ui/floating-navbar";
-import { IconHome, IconMessage, IconUser } from "@tabler/icons-react";
+import {
+  IconHome,
+  IconMessage,
+  IconUser,
+  IconClipboardList,
+} from "@tabler/icons-react";
 export function FloatingNavBar() {
   const navItems = [
     {
@@ -17,7 +22,9 @@ export function FloatingNavBar() {
     {
       name: "Projects",
       link: "/projects",
-      icon: <IconUser className="h-4 w-4 text-neutral-500 dark:text-white" />,
+      icon: (
+        <IconClipboardList className="h-4 w-4 text-neutral-500 dark:text-white" />
+      ),
     },
     {
       name: "Contact",
