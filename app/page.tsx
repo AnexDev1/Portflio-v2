@@ -1,16 +1,15 @@
 "use client";
 import React from "react";
-import { LampDemo } from "@/components/ui/lamp-header";
-import { FloatingNavDemo } from "@/components/ui/navbar";
-import { content } from "@/components/ui/projects";
-import { StickyScroll } from "@/components/ui/sticky-scroll-reveal";
+import { Lamp } from "@/components/ui/lamp-header";
+import { FloatingNavBar } from "@/components/ui/navbar";
+import { CardHoverEffect } from "@/components/ui/projects";
 
 export default function Home() {
   return (
     <>
-      <FloatingNavDemo />
-      <LampDemo />
-      <StickyScroll content={content} />
+      <FloatingNavBar />
+      <Lamp />
+      <CardHoverEffect />
     </>
   );
 }
