@@ -9,39 +9,39 @@ export function CardHoverEffect() {
 }
 export const projects = [
   {
-    title: "Stripe",
+    title: "Panda Menu",
     description:
-      "A technology company that builds economic infrastructure for the internet.",
-    link: "https://stripe.com",
+      "A web app that is used to show cafe menu via scanning Qr-code.",
+    link: "https://panda-house-menu.vercel.app",
   },
   {
-    title: "Netflix",
+    title: "Movies Hub",
     description:
-      "A streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries, and more on thousands of internet-connected devices.",
-    link: "https://netflix.com",
+      "A Movie rating app built using the imdb api as well as react.",
+    link: "https://github.com/AnexDev1/Movies-Hub",
   },
   {
-    title: "Google",
+    title: "CodingZero",
     description:
-      "A multinational technology company that specializes in Internet-related services and products.",
-    link: "https://google.com",
+      "A Beautifully crafted web page that contains tons of resources for developers , contains loots of useful websites .",
+    link: "https://codingzero.vercel.app",
   },
   {
-    title: "Meta",
+    title: "Fast Delivery",
     description:
-      "A technology company that focuses on building products that advance Facebook's mission of bringing the world closer together.",
-    link: "https://meta.com",
+      "An ideal food delivery web app beautifully crafted using react and state management.",
+    link: "https://fast-delivery-co.netlify.app/",
   },
   {
-    title: "Amazon",
+    title: "Ethio Gaming Store",
     description:
-      "A multinational technology company focusing on e-commerce, cloud computing, digital streaming, and artificial intelligence.",
-    link: "https://amazon.com",
+      "A web app that was built for a client who sells game perks as well as other useful equipment and tools , done the full frontend app with react bootstrap and redux.",
+    link: "https://ethio-gaming-store.vercel.app",
   },
   {
-    title: "Microsoft",
+    title: "Order System",
     description:
-      "A multinational technology company that develops, manufactures, licenses, supports, and sells computer software, consumer electronics, personal computers, and related services.",
-    link: "https://microsoft.com",
+      "A fullstack online order taking system built for a client who runs a big corporate with multiple branches and use this system to manage all revenue as well as orders in one place.",
+    link: "https://apa-order-system.vercel.app",
   },
 ];
